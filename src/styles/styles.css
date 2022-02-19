@@ -1,0 +1,14 @@
+.icon {
+    margin-right: 0.5rem;
+}
+
+/* .sideBarLink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} */
+
+
+.sideBarLink:hover {
+    /* background-color: green;
+    border-radius: 4px; */
+}
