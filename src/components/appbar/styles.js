@@ -14,7 +14,7 @@ const AppBarItems = styled.ul`
 `;
 
 const AppBarItem = styled.li`
-    
 `
+
 
 export {AppBarStyles, AppBarItem, AppBarItems}

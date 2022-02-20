@@ -9,21 +9,26 @@ const SideBarStyles   = styled.nav`
 border: 2px solid black;
 `;
 
+const DashboardItem = styled.li`
+    background-color: #e12b38;
+    padding: 1rem 0;
+    font-size: 1.75rem;
+    padding-left: 6rem;
+    color: #ffffff;
+`
+
 const SideBarItem = styled.li`
  display: flex;
-//  margin-bottom: 1rem;
  align-items: center;
  font-size: 1.75rem;
-//  padding-top: 1rem;
-//  padding-bottom: 1rem;
 padding-left: 6rem;
 padding-top: 1rem;
 padding-bottom: 1rem;
 &:hover {
-    background-color: green;
+    background-color: #e12b38;
 }
  `
 
 
 
-export {SideBarStyles, SideBarItem, SideBarItems}
+export {SideBarStyles, SideBarItem, SideBarItems, DashboardItem}

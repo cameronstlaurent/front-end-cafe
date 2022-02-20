@@ -1,6 +1,6 @@
 import React from 'react'
 import {SideBarStyles, SideBarItem, 
-    SideBarItems, SideBarLink} from './styles'
+    SideBarItems, DashboardItem} from './styles'
 import {AiOutlineDashboard} from "react-icons/ai"
 import {FaUser} from "react-icons/fa"
 import {FaUsers} from "react-icons/fa"
@@ -19,9 +19,9 @@ function SideBar  (props){
     return(
     <SideBarStyles>
         <SideBarItems>
-            <SideBarItem class="working">
+            <DashboardItem>
             <AiOutlineDashboard class="icon" size="1.75rem"/>Dashboard
-            </SideBarItem>
+            </DashboardItem>
         </SideBarItems>
         <SideBarItems>
         <SideBarItem>

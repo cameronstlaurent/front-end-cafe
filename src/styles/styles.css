@@ -12,3 +12,7 @@
     /* background-color: green;
     border-radius: 4px; */
 }
+
+.dashboard-panel.flex-container {
+    display: flex;
+}
