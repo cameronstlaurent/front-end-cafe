@@ -26,14 +26,11 @@ const SideBarItem = styled.li`
     padding-left: 6rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
-    &:hover {
-    background-color: #e12b38;
-}
     &:nth-child(1){
-        border-top: 2px solid black;
+        border-top: 2px solid gray;
     }
     &:nth-child(11){
-        border-top: 2px solid black;
+        border-top: 2px solid gray;
     }
  `
 

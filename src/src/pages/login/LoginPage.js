@@ -20,24 +20,23 @@ import React from 'react'
 
      return( 
        <>
-            <header>
-                <h1>Login Page</h1>
-            </header>
-            <div class="login-container">
-                <img src="images/car-img.png" alt="car" />
-                <form onSubmit={onHandleSubmit}>
-                    <img class="logo" src="images/logo.png" alt="the CS Diecast logo" />
-                    <h2>Welcome to CS Diecast!</h2>
-                    <label for="email">Email</label>
-                    <input type="email" required />
-                    <label>Password</label>
-                    <input type="password" required />
-                    <button type="submit">Login</button>
+            <div class="login-page">
+                <div class="login-container">
+                    <img src="images/car-img.png" alt="car" />
+                    <form onSubmit={onHandleSubmit}>
+                        <img class="logo" src="images/logo.png" alt="the CS Diecast logo" />
+                        <h2>Welcome to CS Diecast!</h2>
+                        <label for="email">Email</label>
+                        <input type="email" required />
+                        <label>Password</label>
+                        <input type="password" required />
+                        <button type="submit">Login</button>
                         <div class="recovery-links">
                             <a href="#">Recover Username</a>
                             <a href="#">Recover Password</a>
                         </div>
-                </form>
+                    </form>
+                </div>
             </div>
         </>
      )

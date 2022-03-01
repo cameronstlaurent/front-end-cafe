@@ -5,10 +5,11 @@ const DashboardPanelStyles = styled.div`
     width: 100%;
     background-color: #ffffff;
     border-radius: 8px;
+    box-shadow:  0 0 2px 1px grey;
 `;
 
 const DashboardPanelHeading = styled.div`
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,8 +22,6 @@ const DashboardPanelHeading = styled.div`
 `;
 
 const DashboardPanelDisplay = styled.div`
-    border: 2px solid gray;
-    height: 88.6%;
     border-radius: 0px 0px 8px 8px;
     border-top: none;
 `;

@@ -1,20 +1,32 @@
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
 .icon {
     margin-right: 0.5rem;
+}
+
+.login-page {
+    background-color: #e12b38;
+    padding-top: 8rem;
+    flex: 1;
 }
 .login-container {
     display: flex;
     margin: auto;
     max-width: 60rem;
-    border: 2px solid black;
+    box-shadow:  0 0 2px 1px grey;
     border-radius: 8px;
     align-items: center;
-    background-color: lightgray;
-    margin-top: 7rem;
+    background-color: #d3d3d3;
 }
 
 .login-container > img {
     width: 30rem;
     height: auto;
+    border-radius: 8px 0px 0px 8px;
 }
 
 .logo {
@@ -24,7 +36,6 @@
 
 .dashboard-panel.flex-container {
     display: flex;
-    background-color: lightgray;
 }
 
 .recovery-links {
@@ -32,18 +43,18 @@
     justify-content: space-between;
     margin-top: 0.5rem;
 }
-
-form > h2 {
-    font-size: 24px;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
+/*form styles*/
 form {
     margin-left: 2rem;
     margin-right: 2rem;
     width: 30rem;
     
+}
+
+form > h2 {
+    font-size: 24px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 label{
