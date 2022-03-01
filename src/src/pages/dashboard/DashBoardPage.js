@@ -8,7 +8,7 @@ function DashBoardPage (props){
 
 return(
 <>
-{/* <nav>
+<nav>
             <ul>
                 <li>
                     <Link to="/">LoginPage</Link>
@@ -17,12 +17,12 @@ return(
                     <Link to="/dashboard">DashBoard Page</Link>
                 </li>
             </ul>
-        </nav> */}
-<AppBar/>
-<div class="dashboard-panel flex-container">
-<SideBar/>
-<DashboardPanel/>
-</div>
+        </nav>
+    <AppBar/>
+    <div class="dashboard-panel flex-container">
+        <SideBar/>
+        <DashboardPanel/>
+    </div>
 </>
 )
 }
